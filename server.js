@@ -18,7 +18,7 @@ app.get('/', function(req,res){
 	res.send('HIIIIIII');
 });
 
-//mongoose
+//mongoose connecting db to server
 mongoose.connect(mongoURI);
 
 //error message if mongo is not turned on
