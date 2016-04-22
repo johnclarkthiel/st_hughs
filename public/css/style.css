@@ -1,0 +1,65 @@
+* {
+	margin: 0 auto;
+	padding: 0;
+	font-style: Quasiparticles;
+}
+
+body {
+	background: white;
+	background: url("https://upload.wikimedia.org/wikipedia/commons/b/b1/Ivsrf.gif");
+	/*	background-repeat: no-repeat;*/
+	background-size: fit;
+	background-position: center;
+}
+
+div	{
+	height: 100%;
+	width: 100%
+}
+
+/*.shell {
+	background: url("https://upload.wikimedia.org/wikipedia/commons/b/b1/Ivsrf.gif");
+	background-repeat: no-repeat;
+	background-size: 20% 20%;
+	background-position: center;
+	height: 100%;
+	width: 100%;
+	opacity: 10%;
+	z-index: -1;
+}*/
+
+#title {
+	font-size: 36px;
+	font-weight: bold;
+	font-style: impact;
+}
+
+#hide {
+	color: #ede7f6;
+	font-size: 0px;
+}
+
+#li2, #li3 {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.over {
+	margin-top: 5%;
+	z-index: +1;
+	border: 5px solid #ede7f6;
+	background: white;
+	height: 100%;
+	width: 100%;
+	padding: 1%;
+}
+
+#about {
+	height: 25%;
+	width: 100%;
+}
+
+#contact {
+	height: 35%;
+	width: 100%;
+}
