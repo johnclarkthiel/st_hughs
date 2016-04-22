@@ -32,6 +32,7 @@ div	{
 	font-size: 36px;
 	font-weight: bold;
 	font-style: impact;
+	text-shadow: 2px 2px white;
 }
 
 #hide {
@@ -42,6 +43,7 @@ div	{
 #li2, #li3 {
 	font-weight: bold;
 	font-size: 18px;
+	text-shadow: 2px 2px white;
 }
 
 .over {
