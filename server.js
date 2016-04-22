@@ -13,10 +13,6 @@ var mongoURI = process.env.MONGOLAB_URI || 'mongodb://localhost/st_hughs';
 app.use(express.static('public'));
 app.use(morgan('dev'));
 
-//test that it works
-app.get('/', function(req,res){
-	res.send('HIIIIIII');
-});
 
 //mongoose
 mongoose.connect(mongoURI);
