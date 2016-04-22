@@ -4,7 +4,7 @@ var app = express();
 
 var port = process.env.PORT || 3000;
 
-var morgan = require('morgan');
+// var morgan = require('morgan');
 
 
 var mongoose = require('mongoose');
@@ -14,7 +14,7 @@ var mongoURI = process.env.MONGOLAB_URI || 'mongodb://localhost/st_hughs';
 
 //middleware
 app.use(express.static('public'));
-app.use(morgan('dev'));
+// app.use(morgan('dev'));
 
 
 
