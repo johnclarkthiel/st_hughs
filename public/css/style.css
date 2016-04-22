@@ -63,3 +63,19 @@ div	{
 	height: 35%;
 	width: 100%;
 }
+
+@media (max-width: 600px) {
+	#about {
+	height: 35%;
+	width: 100%;
+}
+
+#contact {
+	height: 35%;
+	width: 100%;
+}
+#li2, #li3 {
+	font-weight: bold;
+	font-size: 11px;
+}
+}
