@@ -95,4 +95,12 @@ img {
 	font-weight: bold;
 	font-size: 10px;
 }
+
+img {
+	margin-top: 25%;
+	height: 40%;
+	width: 40%;
+	opacity: 50%;
+}
+
 }
