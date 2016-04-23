@@ -91,13 +91,23 @@ img {
 	height: 100%;
 	width: 100%;
 }
+
+#box1 {
+	height: 100%;
+}
+
+#box2 {
+	height: 100%;
+}
+
+
 #li2, #li3 {
 	font-weight: bold;
 	font-size: 10px;
 }
 
 img {
-	margin-top: 25%;
+	margin-top: 50%;
 	height: 40%;
 	width: 40%;
 	opacity: 50%;
