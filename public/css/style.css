@@ -6,10 +6,10 @@
 
 body {
 	background: white;
-	background: url("https://upload.wikimedia.org/wikipedia/commons/b/b1/Ivsrf.gif");
-	/*	background-repeat: no-repeat;*/
+/*	background: url("https://upload.wikimedia.org/wikipedia/commons/b/b1/Ivsrf.gif");
+		background-repeat: no-repeat;
 	background-size: fit;
-	background-position: center;
+	background-position: center;*/
 }
 
 div	{
@@ -57,23 +57,38 @@ div	{
 }
 
 #about {
-	height: 25%;
+	height: 100%;
 	width: 100%;
 }
 
 #contact {
-	height: 35%;
+	height: 100%;
 	width: 100%;
+}
+
+#box1 {
+	height: 25%;
+}
+
+#box2 {
+	height: 35%;
+}
+
+img {
+	margin-top: 10%;
+	height: 80%;
+	width: 80%;
+	opacity: 50%;
 }
 
 @media (max-width: 600px) {
 	#about {
-	height: 50%;
+	height: 100%;
 	width: 100%;
 }
 
 #contact {
-	height: 70%;
+	height: 100%;
 	width: 100%;
 }
 #li2, #li3 {
